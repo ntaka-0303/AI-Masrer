@@ -1,15 +1,14 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
 // README at: https://github.com/devcontainers/templates/tree/main/src/python
 {
+	
 	"name": "Python 3",
+	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
 	"image": "mcr.microsoft.com/devcontainers/python:0-3.11",
 	"hostRequirements": {
 	  "cpus": 4
 	},
 	"features": {
-		"ghcr.io/devcontainers/features/anaconda:1": {
-			"version": "latest"
-		},
 		"ghcr.io/devcontainers/features/nvidia-cuda:1": {
 		  "installCudnn": true
 		}
